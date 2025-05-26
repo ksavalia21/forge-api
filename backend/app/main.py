@@ -27,7 +27,7 @@ app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
 origins = [
     "http://localhost:3000",           # Local development
-    "https://forge-api-rose.vercel.app",  # Your actual Vercel app URL
+    "https://forge-api-eight.vercel.app/",  # Your actual Vercel app URL
 ]
 
 # Configure CORS - updated for debugging

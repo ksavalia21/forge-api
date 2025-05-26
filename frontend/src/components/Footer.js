@@ -75,6 +75,16 @@ function Footer() {
             <ul className="social-links">
               <li>
                 <a
+                  href="https://www.linkedin.com/in/keyursavalia/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-linkedin"></i>
+                  <span>LinkedIn</span>
+                </a>
+              </li>
+              <li>
+                <a
                   href="https://github.com/ksavalia21/forge-api"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -82,27 +92,7 @@ function Footer() {
                   <i className="fab fa-github"></i>
                   <span>GitHub</span>
                 </a>
-              </li>
-              <li>
-                <a
-                  href="https://hub.docker.com/u/dixisouls"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fab fa-docker"></i>
-                  <span>Docker Hub</span>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://huggingface.co/dixisouls"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fas fa-robot"></i>
-                  <span>Hugging Face</span>
-                </a>
-              </li>
+              </li>              
             </ul>
           </div>
         </div>
@@ -112,12 +102,12 @@ function Footer() {
             &copy; {currentYear} Forge API | Created with{" "}
             <i className="fas fa-heart" style={{ color: "#ff5722" }}></i> by
             <a
-              href="https://divyapanchal.com/"
+              href="https://keyursavalia.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
               {" "}
-              Divya Panchal
+              Keyur Savalia
             </a>
           </p>
         </div>
